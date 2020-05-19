@@ -61,7 +61,7 @@ See more about [midlewares in express](https://expressjs.com/en/guide/using-midd
 
 <p> Returns all the stored repositories </p>
 
-**Kind**: inner method of [<code>api</code>](#module_api) </br>
+**Method**: GET </br>
 **Returns**: <code>Array</code> - A list of repositories
 <a name="module_api../repositories/_id"></a>
 
@@ -69,7 +69,7 @@ See more about [midlewares in express](https://expressjs.com/en/guide/using-midd
 
 <p> Find a specific stored repository </p>
 
-**Kind**: inner method of [<code>api</code>](#module_api) </br>
+**Method**: GET </br>
 **Returns**: <code>Object</code> - If the repository exists, return the found repository, else returns an error message
 <a name="module_api../repositories"></a>
 
@@ -77,7 +77,7 @@ See more about [midlewares in express](https://expressjs.com/en/guide/using-midd
 
 <p> Add a repository to the list </p>
 
-**Kind**: inner method of [<code>api</code>](#module_api) </br>
+**Method**: POST </br>
 **Returns**: <code>Object</code> - The repository created by the user
 
 | Param | Type                | Description                                                  |
@@ -92,7 +92,7 @@ See more about [midlewares in express](https://expressjs.com/en/guide/using-midd
 
 <p> Update a stored repository </p>
 
-**Kind**: inner method of [<code>api</code>](#module_api) </br>
+**Method**: PUT </br>
 **Returns**: <code>Object</code> - If the repository exists, update the found repository and return to the user, else returns an error message
 
 | Param | Type                | Description                                                  |
@@ -107,7 +107,7 @@ See more about [midlewares in express](https://expressjs.com/en/guide/using-midd
 
 <p> Delete a stored repository </p>
 
-**Kind**: inner method of [<code>api</code>](#module_api) </br>
+**Method**: DELETE </br>
 **Returns**: <code>Object</code> - If the repository exists, delete the repository and returns a empty response with a 204 HTTP status code. If fails, returns an error message
 <a name="module_api../repositories/_id/like"></a>
 
@@ -115,6 +115,6 @@ See more about [midlewares in express](https://expressjs.com/en/guide/using-midd
 
 <p> Gives a thumbs up to a specific repository </p>
 
-**Kind**: inner method of [<code>api</code>](#module_api) </br>
+**Method**: POST </br>
 **Returns**: <code>Object</code> - Returns how many likes the repository has after the update
 <a name="app"></a>
